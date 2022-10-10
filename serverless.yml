@@ -1,4 +1,4 @@
-service: sample-app
+service: torres
 provider:
   name: aws
   runtime: nodejs16.x
@@ -6,7 +6,7 @@ provider:
   region: us-east-1
   memorySize: 128
 functions:
-  api-eventos:
+  api-torres:
     handler: app/app.handler
     events: 
       - http: 
