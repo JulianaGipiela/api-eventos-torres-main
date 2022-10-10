@@ -1,0 +1,4 @@
+ID: AKIAR66JLL7IO4H64RH2
+key: f4aGBmphWtHXSmvo7Uql7l9jkcr+emuk1c5EoXqU
+
+serverless config credentials --provider aws --key AKIAR66JLL7IO4H64RH2 ?secret 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
