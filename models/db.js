@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize('gerenciador', 'admin', 'torreroot', {
-  host: 'torre.cchvrdqldqr3.us-east-1.rds.amazonaws.com',
+  host: 'torre.cjfbxu60ghgd.us-east-1.rds.amazonaws.com',
   dialect: 'mysql',
   define: {
     timestamps: false
