@@ -8,13 +8,13 @@ const towers = [];
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(function (req, res, next) {
+/*app.use(function (req, res, next) {
   if(req.headers["x-api-key"] == "b5rlIGZ6Ky1s34Xddjrx39HmrBZFVb2W9Yw0ZkIN") {
     next();
   } else {
     res.status(401).send("")
   }
-});
+});*/
 
 
 app.get('/todasTorres', async(req, res) => {
