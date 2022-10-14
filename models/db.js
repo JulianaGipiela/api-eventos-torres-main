@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('gerenciador', 'admin', 'torreroot', {
+const sequelize = new Sequelize('torre', 'admin', 'torreroot', {
   host: 'torre.cjfbxu60ghgd.us-east-1.rds.amazonaws.com',
   dialect: 'mysql',
   define: {
